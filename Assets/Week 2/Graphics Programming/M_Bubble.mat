@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Waterfall
-  m_Shader: {fileID: -6465566751694194690, guid: 4bedcc809ff5e0f499b734888f5d5125, type: 3}
+  m_Name: M_Bubble
+  m_Shader: {fileID: -6465566751694194690, guid: c74ea88e45aeb0546ac469912c4c9b82, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -34,18 +34,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _NoiseStrength: 15
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Waterfall_Speed: 2
-    - _bottomFoamStrength: 0.042
-    m_Colors:
-    - _BottomDarkColor: {r: 0.052954763, g: 0.28283605, b: 0.32075468, a: 1}
-    - _BottomLightColor: {r: 0.7877358, g: 0.968937, b: 1, a: 1}
-    - _TopDarkColor: {r: 0.38158596, g: 0.4504575, b: 0.46226412, a: 1}
-    - _TopLightColor: {r: 0.23268954, g: 0.5432831, b: 0.5943396, a: 1}
+    m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &6141135864833477306
+--- !u!114 &7983304131833035545
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
