@@ -20,7 +20,6 @@ namespace FrameWorks.Week2
         {
             if (target != null)
             {
-
                 // We calculate our distance first and then pass it onto the graph.
                 // The evaluate function will return the y value based on the x value we pass in (distance)
                 // The y value is then used to lerp the x rotation between 0 and 90 degrees. 
